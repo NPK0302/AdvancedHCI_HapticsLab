@@ -2,7 +2,7 @@
 
 A small VR lab for **Meta Quest 2 / 3 / 3S** that shows what haptic feedback can add to an interaction, and how to put it into your own Unity project with the open-source **[Haptics Studio](https://github.com/facebook/haptics-studio)**.
 
-Made for the guest lecture *VR and Haptics* in **Advanced Human-Computer Interaction**, Aalborg University Copenhagen (November 2026).
+Made for the lecture *VR and Haptics* in **Advanced Human-Computer Interaction**, Aalborg University Copenhagen (November 2026).
 
 | | |
 |---|---|
@@ -43,35 +43,35 @@ You stand in the middle, and each zone sits in one direction.
 
 ---
 
-## Before the lecture (do this at home)
+## Prerequisites
 
-Downloads and the first import take a long time. Please do this **before** class, so the lab time is spent on haptics. There are two ways to run the lab; choose one.
+There are two ways to run the lab. Choose one.
 
-**A. In Unity over Meta Horizon Link** (Windows; needed if you want to change the lab or design your own clips in it), about 1 hour, mostly waiting:
+**A. In Unity over Meta Horizon Link** (Windows; needed if you want to change the lab or design your own clips in it):
 
 1. **Unity Hub → Installs → Install Editor → 6000.6.7f1.** You only need *Android Build Support* if you want to build an APK yourself.
 2. **Meta Horizon Link** app (Windows): install it, connect your headset once and check that Link starts.
 3. **Haptics Studio:** install Meta's packaged build, *Meta Haptics Studio* (Windows or Mac).
-4. **Clone this repo and follow [Setup](#setup-first-time-about-10-min).** You are ready when you press Play, see the Material Wall in the headset, and the status line under it says *Meta Haptics SDK active*.
+4. **Clone this repo and follow [Setup](#setup).** You are ready when you press Play, see the Material Wall in the headset, and the status line under it says *Meta Haptics SDK active*.
 
-**B. The ready-made APK on the headset** (any computer, including Mac; no Unity needed), about 15 minutes: see [Install the APK](#install-the-apk-no-unity-needed).
+**B. The ready-made APK on the headset** (any computer, including Mac; no Unity needed): see [Install the APK](#install-the-apk-no-unity-needed).
 
-For both: turn on **developer mode** on the headset (Meta Horizon phone app → Devices → your headset → Headset settings → Developer mode), charge the headset and both controllers, and bring a USB-C cable.
+For both: turn on **developer mode** on the headset (Meta Horizon phone app → Devices → your headset → Headset settings → Developer mode), charge the headset and both controllers, and have a USB-C cable ready.
 
 > **Mac users:** Meta Horizon Link only runs on Windows. Use the APK (B), or team up with a group that has a Windows laptop.
 
-## In class
+## In the lecture
 
 | Block | What you do |
 |---|---|
-| Break before hands-on | Start the lab (Unity + Link, or the APK). Checkpoint: you see the Material Wall. |
-| Hands-on 1 (45 min) | The four zones. Swap who wears the headset about every 10 minutes. |
-| Hands-on 2 (25 min) | Pick one interaction from **your own VR project**, design a clip for it in Haptics Studio, export it to the Live folder and feel it on the Design Bench. Write down which event should trigger it in your project. |
-| After class | Add the clip to your own project: see [Use it in your own project](#use-it-in-your-own-project). |
+| Before the hands-on | Get the lab running (Unity + Link, or the APK). Checkpoint: you see the Material Wall. |
+| Hands-on 1 | The four zones. Swap who wears the headset regularly. |
+| Hands-on 2 | Pick one interaction from **your own VR project**, design a clip for it in Haptics Studio, export it to the Live folder and feel it on the Design Bench. Write down which event should trigger it in your project. |
+| After the lecture | Add the clip to your own project: see [Use it in your own project](#use-it-in-your-own-project). |
 
 ---
 
-## Setup (first time, about 10 min)
+## Setup
 
 1. **Clone** this repo and open it with Unity **6000.6.7f1** (Unity Hub → *Add project from disk*). The first import takes several minutes (*Rebuilding Library…*).
    - Meta's packages may show a few prompts on first open: accept *Enable Meta XR Feature Set*, close the welcome window, and choose what data to share.
@@ -92,7 +92,7 @@ The **Haptics Lab** menu also has *1. Set Up Project* and *2. Build Lab Scene*. 
 
 The ready-made APK is attached to the **[latest release](https://github.com/luialbaekthomsen/AdvancedHCI_HapticsLab/releases/latest)**. It runs on the headset itself, with the full Meta Haptics SDK.
 
-1. Turn on **developer mode** (see [Before the lecture](#before-the-lecture-do-this-at-home)) and connect the headset to your computer with USB. In the headset, allow USB debugging when asked.
+1. Turn on **developer mode** (see [Prerequisites](#prerequisites)) and connect the headset to your computer with USB. In the headset, allow USB debugging when asked.
 2. Install the APK with one of:
    - **Meta Quest Developer Hub** (Meta's free desktop app, Windows/Mac): select your device and drag the `.apk` onto it.
    - **[SideQuest](https://sidequestvr.com/setup-howto)**: *Install APK file from folder* (the box-with-arrow icon).
@@ -194,7 +194,7 @@ player.Dispose();
 
 Things worth knowing:
 - **Clips are not mixed.** Only one clip plays per controller at a time; `priority` (0 = most important) decides which. The Material Wall gives taps priority 20 so they briefly override textures (priority 100).
-- **Two ways to render continuous contact.** *Loop* a texture clip and modulate `amplitude` / `frequencyShift` (level 2), or play a short *grain* clip each time the finger travels a set distance (level 3, see `HapticSurface.cs`). The second follows the finger exactly and feels much more physical.
+- **Two ways to render continuous contact.** *Loop* a texture clip and modulate `amplitude` / `frequencyShift`, or play a short *grain* clip each time the finger travels a set distance (level 3, see `HapticSurface.cs`). The second follows the finger exactly and feels much more physical.
 - **Sound and touch belong together**, but sound easily dominates. Keep it quieter than you think, and match loudness across materials.
 - **Less is more.** Strong, constant vibration quickly becomes noise. Reserve strong effects for meaningful moments.
 
@@ -250,7 +250,7 @@ Screenshots/                made with Haptics Lab → Capture Zone Screenshots
 | Rendering problems over Link | Check *Project Settings → XR Plug-in Management → OpenXR* (Windows tab): *Render Mode* should be **Multi Pass**. |
 | A button doesn't react to my finger | Push *into* it, not past it. |
 | Console full of `[MetaXRFeature] …` messages and `ErrorFunctionUnsupported` warnings over Link | Normal: Meta's SDK logs its startup, and asks for features (spatial anchors, scene, parametric haptics) that Link doesn't offer. The lab doesn't use them. |
-| Console: *[Project Setup Tool] There are … outstanding Optional fixes* | Optional recommendations. Don't click *Fix All* (see [Setup](#setup-first-time-about-10-min)). |
+| Console: *[Project Setup Tool] There are … outstanding Optional fixes* | Optional recommendations. Don't click *Fix All* (see [Setup](#setup)). |
 | Console: *Multiple ADB server instances found* | Two Android SDKs on the PC (for example Unity's and Meta Quest Developer Hub's). Harmless for Link; for APK installs, point *Preferences → External Tools → Android SDK* to the one the other tool uses. |
 | The APK doesn't appear in the headset's library | Filter the library by *Unknown sources*. |
 | Live clip doesn't appear | It must be valid `.haptic` JSON with at least two amplitude points. Check the Console for `[HapticsLab]` messages. |
