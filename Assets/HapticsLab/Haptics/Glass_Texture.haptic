@@ -1,0 +1,55 @@
+{
+ "version": {
+  "major": 1,
+  "minor": 0,
+  "patch": 0
+ },
+ "metadata": {
+  "editor": "Haptics Lab",
+  "author": "Advanced HCI - Haptics Lab",
+  "tags": [
+   "material",
+   "texture",
+   "loop"
+  ],
+  "description": "Glass: almost nothing (slick) with a faint squeak"
+ },
+ "signals": {
+  "continuous": {
+   "envelopes": {
+    "amplitude": [
+     {
+      "time": 0.0,
+      "amplitude": 0.14
+     },
+     {
+      "time": 0.2,
+      "amplitude": 0.12
+     },
+     {
+      "time": 0.23,
+      "amplitude": 0.45
+     },
+     {
+      "time": 0.3,
+      "amplitude": 0.12
+     },
+     {
+      "time": 1.0,
+      "amplitude": 0.14
+     }
+    ],
+    "frequency": [
+     {
+      "time": 0.0,
+      "frequency": 1.0
+     },
+     {
+      "time": 1.0,
+      "frequency": 1.0
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "version": {
+  "major": 1,
+  "minor": 0,
+  "patch": 0
+ },
+ "metadata": {
+  "editor": "Haptics Lab",
+  "author": "Advanced HCI - Haptics Lab",
+  "tags": [
+   "bench",
+   "hand-designed"
+  ],
+  "description": "Ramp: amplitude 0->1 while frequency sweeps low->high (no emphasis)"
+ },
+ "signals": {
+  "continuous": {
+   "envelopes": {
+    "amplitude": [
+     {
+      "time": 0.0,
+      "amplitude": 0.0
+     },
+     {
+      "time": 2.0,
+      "amplitude": 1.0
+     },
+     {
+      "time": 2.05,
+      "amplitude": 0.0
+     }
+    ],
+    "frequency": [
+     {
+      "time": 0.0,
+      "frequency": 0.0
+     },
+     {
+      "time": 2.0,
+      "frequency": 1.0
+     }
+    ]
+   }
+  }
+ }
+}

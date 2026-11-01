@@ -1,0 +1,223 @@
+{
+ "version": {
+  "major": 1,
+  "minor": 0,
+  "patch": 0
+ },
+ "metadata": {
+  "editor": "Haptics Lab",
+  "author": "Advanced HCI - Haptics Lab",
+  "tags": [
+   "material",
+   "texture",
+   "loop"
+  ],
+  "description": "Wood grain while rubbing: ~11 ridges per second"
+ },
+ "signals": {
+  "continuous": {
+   "envelopes": {
+    "amplitude": [
+     {
+      "time": 0.0,
+      "amplitude": 0.35
+     },
+     {
+      "time": 0.025,
+      "amplitude": 0.75,
+      "emphasis": {
+       "amplitude": 0.8,
+       "frequency": 0.35
+      }
+     },
+     {
+      "time": 0.06,
+      "amplitude": 0.4
+     },
+     {
+      "time": 0.0908,
+      "amplitude": 0.35
+     },
+     {
+      "time": 0.1158,
+      "amplitude": 0.75,
+      "emphasis": {
+       "amplitude": 0.8,
+       "frequency": 0.35
+      }
+     },
+     {
+      "time": 0.1508,
+      "amplitude": 0.4
+     },
+     {
+      "time": 0.1816,
+      "amplitude": 0.35
+     },
+     {
+      "time": 0.2066,
+      "amplitude": 0.75,
+      "emphasis": {
+       "amplitude": 0.8,
+       "frequency": 0.35
+      }
+     },
+     {
+      "time": 0.2416,
+      "amplitude": 0.4
+     },
+     {
+      "time": 0.2725,
+      "amplitude": 0.35
+     },
+     {
+      "time": 0.2975,
+      "amplitude": 0.75,
+      "emphasis": {
+       "amplitude": 0.8,
+       "frequency": 0.35
+      }
+     },
+     {
+      "time": 0.3325,
+      "amplitude": 0.4
+     },
+     {
+      "time": 0.3633,
+      "amplitude": 0.35
+     },
+     {
+      "time": 0.3883,
+      "amplitude": 0.75,
+      "emphasis": {
+       "amplitude": 0.8,
+       "frequency": 0.35
+      }
+     },
+     {
+      "time": 0.4233,
+      "amplitude": 0.4
+     },
+     {
+      "time": 0.4541,
+      "amplitude": 0.35
+     },
+     {
+      "time": 0.4791,
+      "amplitude": 0.75,
+      "emphasis": {
+       "amplitude": 0.8,
+       "frequency": 0.35
+      }
+     },
+     {
+      "time": 0.5141,
+      "amplitude": 0.4
+     },
+     {
+      "time": 0.5449,
+      "amplitude": 0.35
+     },
+     {
+      "time": 0.5699,
+      "amplitude": 0.75,
+      "emphasis": {
+       "amplitude": 0.8,
+       "frequency": 0.35
+      }
+     },
+     {
+      "time": 0.6049,
+      "amplitude": 0.4
+     },
+     {
+      "time": 0.6357,
+      "amplitude": 0.35
+     },
+     {
+      "time": 0.6607,
+      "amplitude": 0.75,
+      "emphasis": {
+       "amplitude": 0.8,
+       "frequency": 0.35
+      }
+     },
+     {
+      "time": 0.6957,
+      "amplitude": 0.4
+     },
+     {
+      "time": 0.7265,
+      "amplitude": 0.35
+     },
+     {
+      "time": 0.7515,
+      "amplitude": 0.75,
+      "emphasis": {
+       "amplitude": 0.8,
+       "frequency": 0.35
+      }
+     },
+     {
+      "time": 0.7865,
+      "amplitude": 0.4
+     },
+     {
+      "time": 0.8174,
+      "amplitude": 0.35
+     },
+     {
+      "time": 0.8424,
+      "amplitude": 0.75,
+      "emphasis": {
+       "amplitude": 0.8,
+       "frequency": 0.35
+      }
+     },
+     {
+      "time": 0.8774,
+      "amplitude": 0.4
+     },
+     {
+      "time": 0.9082,
+      "amplitude": 0.35
+     },
+     {
+      "time": 0.9332,
+      "amplitude": 0.75,
+      "emphasis": {
+       "amplitude": 0.8,
+       "frequency": 0.35
+      }
+     },
+     {
+      "time": 0.9682,
+      "amplitude": 0.4
+     },
+     {
+      "time": 0.999,
+      "amplitude": 0.35
+     },
+     {
+      "time": 1.0,
+      "amplitude": 0.35
+     }
+    ],
+    "frequency": [
+     {
+      "time": 0.0,
+      "frequency": 0.32
+     },
+     {
+      "time": 0.5,
+      "frequency": 0.38
+     },
+     {
+      "time": 1.0,
+      "frequency": 0.32
+     }
+    ]
+   }
+  }
+ }
+}

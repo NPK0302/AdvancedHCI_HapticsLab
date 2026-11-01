@@ -1,0 +1,106 @@
+{
+ "version": {
+  "major": 1,
+  "minor": 0,
+  "patch": 0
+ },
+ "metadata": {
+  "editor": "Haptics Lab",
+  "author": "Advanced HCI - Haptics Lab",
+  "tags": [
+   "bench",
+   "hand-designed"
+  ],
+  "description": "Heartbeat: two low 'lub-dub' beats (emphasis + low frequency)"
+ },
+ "signals": {
+  "continuous": {
+   "envelopes": {
+    "amplitude": [
+     {
+      "time": 0.0,
+      "amplitude": 0.0
+     },
+     {
+      "time": 0.005,
+      "amplitude": 0.85,
+      "emphasis": {
+       "amplitude": 1.0,
+       "frequency": 0.1
+      }
+     },
+     {
+      "time": 0.08,
+      "amplitude": 0.2
+     },
+     {
+      "time": 0.16,
+      "amplitude": 0.2
+     },
+     {
+      "time": 0.165,
+      "amplitude": 0.6,
+      "emphasis": {
+       "amplitude": 0.75,
+       "frequency": 0.15
+      }
+     },
+     {
+      "time": 0.26,
+      "amplitude": 0.0
+     },
+     {
+      "time": 0.3,
+      "amplitude": 0.0
+     },
+     {
+      "time": 0.805,
+      "amplitude": 0.85,
+      "emphasis": {
+       "amplitude": 1.0,
+       "frequency": 0.1
+      }
+     },
+     {
+      "time": 0.88,
+      "amplitude": 0.2
+     },
+     {
+      "time": 0.96,
+      "amplitude": 0.2
+     },
+     {
+      "time": 0.965,
+      "amplitude": 0.6,
+      "emphasis": {
+       "amplitude": 0.75,
+       "frequency": 0.15
+      }
+     },
+     {
+      "time": 1.06,
+      "amplitude": 0.0
+     },
+     {
+      "time": 1.1,
+      "amplitude": 0.0
+     },
+     {
+      "time": 1.6,
+      "amplitude": 0.0
+     }
+    ],
+    "frequency": [
+     {
+      "time": 0.0,
+      "frequency": 0.1
+     },
+     {
+      "time": 1.6,
+      "frequency": 0.1
+     }
+    ]
+   }
+  }
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "version": {
+  "major": 1,
+  "minor": 0,
+  "patch": 0
+ },
+ "metadata": {
+  "editor": "Haptics Lab",
+  "author": "Advanced HCI - Haptics Lab",
+  "tags": [
+   "material",
+   "grain"
+  ],
+  "description": "One fine scratch in brushed metal: tiny and bright"
+ },
+ "signals": {
+  "continuous": {
+   "envelopes": {
+    "amplitude": [
+     {
+      "time": 0.0,
+      "amplitude": 0.0
+     },
+     {
+      "time": 0.001,
+      "amplitude": 0.4,
+      "emphasis": {
+       "amplitude": 0.6,
+       "frequency": 0.9
+      }
+     },
+     {
+      "time": 0.008,
+      "amplitude": 0.15
+     },
+     {
+      "time": 0.015,
+      "amplitude": 0.0
+     }
+    ],
+    "frequency": [
+     {
+      "time": 0.0,
+      "frequency": 0.9
+     }
+    ]
+   }
+  }
+ }
+}

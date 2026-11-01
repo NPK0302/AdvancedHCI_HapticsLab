@@ -1,0 +1,58 @@
+{
+ "version": {
+  "major": 1,
+  "minor": 0,
+  "patch": 0
+ },
+ "metadata": {
+  "editor": "Haptics Lab",
+  "author": "Advanced HCI - Haptics Lab",
+  "tags": [
+   "object",
+   "impact"
+  ],
+  "description": "Gold bar hitting something"
+ },
+ "signals": {
+  "continuous": {
+   "envelopes": {
+    "amplitude": [
+     {
+      "time": 0.0,
+      "amplitude": 0.0
+     },
+     {
+      "time": 0.002,
+      "amplitude": 0.8,
+      "emphasis": {
+       "amplitude": 1.0,
+       "frequency": 0.7
+      }
+     },
+     {
+      "time": 0.04,
+      "amplitude": 0.4
+     },
+     {
+      "time": 0.2,
+      "amplitude": 0.12
+     },
+     {
+      "time": 0.4,
+      "amplitude": 0.0
+     }
+    ],
+    "frequency": [
+     {
+      "time": 0.0,
+      "frequency": 0.7
+     },
+     {
+      "time": 0.4,
+      "frequency": 0.6
+     }
+    ]
+   }
+  }
+ }
+}

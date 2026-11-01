@@ -1,0 +1,57 @@
+{
+ "version": {
+  "major": 1,
+  "minor": 0,
+  "patch": 0
+ },
+ "metadata": {
+  "editor": "Haptics Lab",
+  "author": "Advanced HCI - Haptics Lab",
+  "tags": [
+   "object"
+  ],
+  "description": "Heavy, dense object settling into the hand"
+ },
+ "signals": {
+  "continuous": {
+   "envelopes": {
+    "amplitude": [
+     {
+      "time": 0.0,
+      "amplitude": 0.0
+     },
+     {
+      "time": 0.003,
+      "amplitude": 1.0,
+      "emphasis": {
+       "amplitude": 1.0,
+       "frequency": 0.3
+      }
+     },
+     {
+      "time": 0.06,
+      "amplitude": 0.6
+     },
+     {
+      "time": 0.18,
+      "amplitude": 0.2
+     },
+     {
+      "time": 0.25,
+      "amplitude": 0.0
+     }
+    ],
+    "frequency": [
+     {
+      "time": 0.0,
+      "frequency": 0.3
+     },
+     {
+      "time": 0.25,
+      "frequency": 0.25
+     }
+    ]
+   }
+  }
+ }
+}

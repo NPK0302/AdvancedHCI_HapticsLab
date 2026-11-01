@@ -1,0 +1,66 @@
+{
+ "version": {
+  "major": 1,
+  "minor": 0,
+  "patch": 0
+ },
+ "metadata": {
+  "editor": "Haptics Lab",
+  "author": "Advanced HCI - Haptics Lab",
+  "tags": [
+   "safe",
+   "error"
+  ],
+  "description": "Wrong number: two dull buzzes"
+ },
+ "signals": {
+  "continuous": {
+   "envelopes": {
+    "amplitude": [
+     {
+      "time": 0.0,
+      "amplitude": 0.0
+     },
+     {
+      "time": 0.01,
+      "amplitude": 0.7
+     },
+     {
+      "time": 0.15,
+      "amplitude": 0.6
+     },
+     {
+      "time": 0.16,
+      "amplitude": 0.0
+     },
+     {
+      "time": 0.22,
+      "amplitude": 0.0
+     },
+     {
+      "time": 0.23,
+      "amplitude": 0.7
+     },
+     {
+      "time": 0.37,
+      "amplitude": 0.6
+     },
+     {
+      "time": 0.38,
+      "amplitude": 0.0
+     }
+    ],
+    "frequency": [
+     {
+      "time": 0.0,
+      "frequency": 0.1
+     },
+     {
+      "time": 0.38,
+      "frequency": 0.1
+     }
+    ]
+   }
+  }
+ }
+}

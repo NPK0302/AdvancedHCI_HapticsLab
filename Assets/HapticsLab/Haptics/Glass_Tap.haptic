@@ -1,0 +1,58 @@
+{
+ "version": {
+  "major": 1,
+  "minor": 0,
+  "patch": 0
+ },
+ "metadata": {
+  "editor": "Haptics Lab",
+  "author": "Advanced HCI - Haptics Lab",
+  "tags": [
+   "material",
+   "tap"
+  ],
+  "description": "Glass tap: light, crisp tick with a thin ring"
+ },
+ "signals": {
+  "continuous": {
+   "envelopes": {
+    "amplitude": [
+     {
+      "time": 0.0,
+      "amplitude": 0.0
+     },
+     {
+      "time": 0.001,
+      "amplitude": 0.45,
+      "emphasis": {
+       "amplitude": 0.85,
+       "frequency": 1.0
+      }
+     },
+     {
+      "time": 0.03,
+      "amplitude": 0.22
+     },
+     {
+      "time": 0.25,
+      "amplitude": 0.08
+     },
+     {
+      "time": 0.5,
+      "amplitude": 0.0
+     }
+    ],
+    "frequency": [
+     {
+      "time": 0.0,
+      "frequency": 1.0
+     },
+     {
+      "time": 0.5,
+      "frequency": 1.0
+     }
+    ]
+   }
+  }
+ }
+}

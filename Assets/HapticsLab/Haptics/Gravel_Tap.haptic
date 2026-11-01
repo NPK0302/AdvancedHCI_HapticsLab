@@ -1,0 +1,186 @@
+{
+ "version": {
+  "major": 1,
+  "minor": 0,
+  "patch": 0
+ },
+ "metadata": {
+  "editor": "Haptics Lab",
+  "author": "Advanced HCI - Haptics Lab",
+  "tags": [
+   "material",
+   "tap"
+  ],
+  "description": "Gravel tap: a crunchy cluster of tiny impacts"
+ },
+ "signals": {
+  "continuous": {
+   "envelopes": {
+    "amplitude": [
+     {
+      "time": 0.0,
+      "amplitude": 0.0
+     },
+     {
+      "time": 0.0083,
+      "amplitude": 0.2339
+     },
+     {
+      "time": 0.0103,
+      "amplitude": 0.4678,
+      "emphasis": {
+       "amplitude": 0.6678,
+       "frequency": 0.3431
+      }
+     },
+     {
+      "time": 0.0163,
+      "amplitude": 0.1403
+     },
+     {
+      "time": 0.0178,
+      "amplitude": 0.3005
+     },
+     {
+      "time": 0.0198,
+      "amplitude": 0.6009,
+      "emphasis": {
+       "amplitude": 0.8009,
+       "frequency": 0.3309
+      }
+     },
+     {
+      "time": 0.0258,
+      "amplitude": 0.1803
+     },
+     {
+      "time": 0.0296,
+      "amplitude": 0.316
+     },
+     {
+      "time": 0.0316,
+      "amplitude": 0.632,
+      "emphasis": {
+       "amplitude": 0.832,
+       "frequency": 0.4253
+      }
+     },
+     {
+      "time": 0.0376,
+      "amplitude": 0.1896
+     },
+     {
+      "time": 0.0404,
+      "amplitude": 0.1634
+     },
+     {
+      "time": 0.0424,
+      "amplitude": 0.3267,
+      "emphasis": {
+       "amplitude": 0.5267,
+       "frequency": 0.4018
+      }
+     },
+     {
+      "time": 0.0484,
+      "amplitude": 0.098
+     },
+     {
+      "time": 0.0493,
+      "amplitude": 0.1389
+     },
+     {
+      "time": 0.0513,
+      "amplitude": 0.2778,
+      "emphasis": {
+       "amplitude": 0.4778,
+       "frequency": 0.4761
+      }
+     },
+     {
+      "time": 0.0573,
+      "amplitude": 0.0833
+     },
+     {
+      "time": 0.062,
+      "amplitude": 0.2008
+     },
+     {
+      "time": 0.064,
+      "amplitude": 0.4015,
+      "emphasis": {
+       "amplitude": 0.6015,
+       "frequency": 0.3067
+      }
+     },
+     {
+      "time": 0.07,
+      "amplitude": 0.1205
+     },
+     {
+      "time": 0.0781,
+      "amplitude": 0.2079
+     },
+     {
+      "time": 0.0801,
+      "amplitude": 0.4159,
+      "emphasis": {
+       "amplitude": 0.6159,
+       "frequency": 0.324
+      }
+     },
+     {
+      "time": 0.0861,
+      "amplitude": 0.1248
+     },
+     {
+      "time": 0.0878,
+      "amplitude": 0.1385
+     },
+     {
+      "time": 0.0898,
+      "amplitude": 0.277,
+      "emphasis": {
+       "amplitude": 0.477,
+       "frequency": 0.3007
+      }
+     },
+     {
+      "time": 0.0958,
+      "amplitude": 0.0831
+     },
+     {
+      "time": 0.0983,
+      "amplitude": 0.1133
+     },
+     {
+      "time": 0.1003,
+      "amplitude": 0.2265,
+      "emphasis": {
+       "amplitude": 0.4265,
+       "frequency": 0.4353
+      }
+     },
+     {
+      "time": 0.1063,
+      "amplitude": 0.068
+     },
+     {
+      "time": 0.1383,
+      "amplitude": 0.0
+     }
+    ],
+    "frequency": [
+     {
+      "time": 0.0,
+      "frequency": 0.5
+     },
+     {
+      "time": 0.0983,
+      "frequency": 0.4
+     }
+    ]
+   }
+  }
+ }
+}

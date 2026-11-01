@@ -1,0 +1,2 @@
+# Keeps this folder in Git (Git does not store empty folders). Meta XR writes a temporary
+# RuntimeActionBindings.json here while in Play mode. Unity ignores files starting with a dot.

@@ -1,0 +1,45 @@
+{
+ "version": {
+  "major": 1,
+  "minor": 0,
+  "patch": 0
+ },
+ "metadata": {
+  "editor": "Haptics Lab",
+  "author": "Advanced HCI - Haptics Lab",
+  "tags": [
+   "safe"
+  ],
+  "description": "Dial detent: a tiny, crisp tick"
+ },
+ "signals": {
+  "continuous": {
+   "envelopes": {
+    "amplitude": [
+     {
+      "time": 0.0,
+      "amplitude": 0.0
+     },
+     {
+      "time": 0.001,
+      "amplitude": 0.25,
+      "emphasis": {
+       "amplitude": 0.55,
+       "frequency": 0.85
+      }
+     },
+     {
+      "time": 0.012,
+      "amplitude": 0.0
+     }
+    ],
+    "frequency": [
+     {
+      "time": 0.0,
+      "frequency": 0.8
+     }
+    ]
+   }
+  }
+ }
+}

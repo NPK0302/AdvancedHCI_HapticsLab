@@ -1,0 +1,459 @@
+{
+ "version": {
+  "major": 1,
+  "minor": 0,
+  "patch": 0
+ },
+ "metadata": {
+  "editor": "Haptics Lab",
+  "author": "Advanced HCI - Haptics Lab",
+  "tags": [
+   "material",
+   "texture",
+   "loop"
+  ],
+  "description": "Gravel: dense, irregular crunch"
+ },
+ "signals": {
+  "continuous": {
+   "envelopes": {
+    "amplitude": [
+     {
+      "time": 0.0,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.0446,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.0476,
+      "amplitude": 0.7367,
+      "emphasis": {
+       "amplitude": 0.8367,
+       "frequency": 0.3516
+      }
+     },
+     {
+      "time": 0.059,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.0596,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.062,
+      "amplitude": 0.7973,
+      "emphasis": {
+       "amplitude": 0.8973,
+       "frequency": 0.5931
+      }
+     },
+     {
+      "time": 0.074,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.1536,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.1566,
+      "amplitude": 0.8775,
+      "emphasis": {
+       "amplitude": 0.9775,
+       "frequency": 0.3225
+      }
+     },
+     {
+      "time": 0.1686,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.2134,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.2164,
+      "amplitude": 0.8123,
+      "emphasis": {
+       "amplitude": 0.9123,
+       "frequency": 0.3134
+      }
+     },
+     {
+      "time": 0.2284,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.293,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.296,
+      "amplitude": 0.863,
+      "emphasis": {
+       "amplitude": 0.963,
+       "frequency": 0.4664
+      }
+     },
+     {
+      "time": 0.308,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.3087,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.3117,
+      "amplitude": 0.5279,
+      "emphasis": {
+       "amplitude": 0.6279,
+       "frequency": 0.3449
+      }
+     },
+     {
+      "time": 0.3237,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.3293,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.3323,
+      "amplitude": 0.5035,
+      "emphasis": {
+       "amplitude": 0.6035,
+       "frequency": 0.5452
+      }
+     },
+     {
+      "time": 0.3351,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.3381,
+      "amplitude": 0.8112,
+      "emphasis": {
+       "amplitude": 0.9112,
+       "frequency": 0.3612
+      }
+     },
+     {
+      "time": 0.3443,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.3501,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.364,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.367,
+      "amplitude": 0.5466,
+      "emphasis": {
+       "amplitude": 0.6466,
+       "frequency": 0.5258
+      }
+     },
+     {
+      "time": 0.3704,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.3734,
+      "amplitude": 0.9252,
+      "emphasis": {
+       "amplitude": 1,
+       "frequency": 0.5218
+      }
+     },
+     {
+      "time": 0.379,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.3854,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.3907,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.3937,
+      "amplitude": 0.4563,
+      "emphasis": {
+       "amplitude": 0.5563,
+       "frequency": 0.483
+      }
+     },
+     {
+      "time": 0.4057,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.4149,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.4179,
+      "amplitude": 0.9025,
+      "emphasis": {
+       "amplitude": 1,
+       "frequency": 0.4675
+      }
+     },
+     {
+      "time": 0.4299,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.4475,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.4505,
+      "amplitude": 0.5904,
+      "emphasis": {
+       "amplitude": 0.6904,
+       "frequency": 0.4923
+      }
+     },
+     {
+      "time": 0.4625,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.4677,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.4707,
+      "amplitude": 0.782,
+      "emphasis": {
+       "amplitude": 0.882,
+       "frequency": 0.4243
+      }
+     },
+     {
+      "time": 0.4827,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.4952,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.4982,
+      "amplitude": 0.7652,
+      "emphasis": {
+       "amplitude": 0.8652,
+       "frequency": 0.4962
+      }
+     },
+     {
+      "time": 0.5027,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.5057,
+      "amplitude": 0.5318,
+      "emphasis": {
+       "amplitude": 0.6318,
+       "frequency": 0.3211
+      }
+     },
+     {
+      "time": 0.5102,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.5177,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.5418,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.5448,
+      "amplitude": 0.8995,
+      "emphasis": {
+       "amplitude": 0.9995,
+       "frequency": 0.5774
+      }
+     },
+     {
+      "time": 0.5568,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.6128,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.6158,
+      "amplitude": 0.8477,
+      "emphasis": {
+       "amplitude": 0.9477,
+       "frequency": 0.4745
+      }
+     },
+     {
+      "time": 0.6278,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.6725,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.6755,
+      "amplitude": 0.4993,
+      "emphasis": {
+       "amplitude": 0.5993,
+       "frequency": 0.5829
+      }
+     },
+     {
+      "time": 0.6875,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.699,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.6992,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.702,
+      "amplitude": 0.9252,
+      "emphasis": {
+       "amplitude": 1,
+       "frequency": 0.5504
+      }
+     },
+     {
+      "time": 0.7022,
+      "amplitude": 0.5377,
+      "emphasis": {
+       "amplitude": 0.6377,
+       "frequency": 0.302
+      }
+     },
+     {
+      "time": 0.7082,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.7112,
+      "amplitude": 0.9217,
+      "emphasis": {
+       "amplitude": 1,
+       "frequency": 0.5754
+      }
+     },
+     {
+      "time": 0.714,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.7142,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.7232,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.7316,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.7346,
+      "amplitude": 0.8572,
+      "emphasis": {
+       "amplitude": 0.9572,
+       "frequency": 0.3174
+      }
+     },
+     {
+      "time": 0.7466,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.8764,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.8794,
+      "amplitude": 0.4968,
+      "emphasis": {
+       "amplitude": 0.5968,
+       "frequency": 0.5231
+      }
+     },
+     {
+      "time": 0.8914,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.9105,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.9135,
+      "amplitude": 0.6492,
+      "emphasis": {
+       "amplitude": 0.7492,
+       "frequency": 0.4297
+      }
+     },
+     {
+      "time": 0.9255,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.9566,
+      "amplitude": 0.25
+     },
+     {
+      "time": 0.9596,
+      "amplitude": 0.6947,
+      "emphasis": {
+       "amplitude": 0.7947,
+       "frequency": 0.5429
+      }
+     },
+     {
+      "time": 0.9716,
+      "amplitude": 0.25
+     },
+     {
+      "time": 1.0,
+      "amplitude": 0.25
+     }
+    ],
+    "frequency": [
+     {
+      "time": 0.0,
+      "frequency": 0.45
+     },
+     {
+      "time": 1.0,
+      "frequency": 0.45
+     }
+    ]
+   }
+  }
+ }
+}

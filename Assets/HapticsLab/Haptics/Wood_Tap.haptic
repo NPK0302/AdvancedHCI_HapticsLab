@@ -1,0 +1,62 @@
+{
+ "version": {
+  "major": 1,
+  "minor": 0,
+  "patch": 0
+ },
+ "metadata": {
+  "editor": "Haptics Lab",
+  "author": "Advanced HCI - Haptics Lab",
+  "tags": [
+   "material",
+   "tap"
+  ],
+  "description": "Knock on wood: firm, dull, short"
+ },
+ "signals": {
+  "continuous": {
+   "envelopes": {
+    "amplitude": [
+     {
+      "time": 0.0,
+      "amplitude": 0.0
+     },
+     {
+      "time": 0.002,
+      "amplitude": 0.85,
+      "emphasis": {
+       "amplitude": 1.0,
+       "frequency": 0.45
+      }
+     },
+     {
+      "time": 0.02,
+      "amplitude": 0.55
+     },
+     {
+      "time": 0.06,
+      "amplitude": 0.18
+     },
+     {
+      "time": 0.11,
+      "amplitude": 0.0
+     }
+    ],
+    "frequency": [
+     {
+      "time": 0.0,
+      "frequency": 0.45
+     },
+     {
+      "time": 0.05,
+      "frequency": 0.32
+     },
+     {
+      "time": 0.11,
+      "frequency": 0.25
+     }
+    ]
+   }
+  }
+ }
+}

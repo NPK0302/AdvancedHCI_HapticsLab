@@ -1,0 +1,69 @@
+{
+ "version": {
+  "major": 1,
+  "minor": 0,
+  "patch": 0
+ },
+ "metadata": {
+  "editor": "Haptics Lab",
+  "author": "Advanced HCI - Haptics Lab",
+  "tags": [
+   "safe"
+  ],
+  "description": "Dial gate: a heavy, low double knock that gives the number away"
+ },
+ "signals": {
+  "continuous": {
+   "envelopes": {
+    "amplitude": [
+     {
+      "time": 0.0,
+      "amplitude": 0.0
+     },
+     {
+      "time": 0.002,
+      "amplitude": 0.9,
+      "emphasis": {
+       "amplitude": 1.0,
+       "frequency": 0.25
+      }
+     },
+     {
+      "time": 0.025,
+      "amplitude": 0.5
+     },
+     {
+      "time": 0.05,
+      "amplitude": 0.15
+     },
+     {
+      "time": 0.055,
+      "amplitude": 0.9,
+      "emphasis": {
+       "amplitude": 1.0,
+       "frequency": 0.3
+      }
+     },
+     {
+      "time": 0.085,
+      "amplitude": 0.45
+     },
+     {
+      "time": 0.15,
+      "amplitude": 0.0
+     }
+    ],
+    "frequency": [
+     {
+      "time": 0.0,
+      "frequency": 0.25
+     },
+     {
+      "time": 0.15,
+      "frequency": 0.25
+     }
+    ]
+   }
+  }
+ }
+}
